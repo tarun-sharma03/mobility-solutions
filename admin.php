@@ -8,14 +8,17 @@ if (is_null($_SESSION["username"])) {
     </script>
 <?php
 }
-
+$count = getThis("SELECT * FROM `ip_add`");
+$count2 = getThis("SELECT DISTINCT `ip_add` FROM `ip_add`");
+$num = sizeof($count);
+$num2 = sizeof($count2);
 $res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` FROM `conform` WHERE `enabled` = 1 ORDER BY `generatedAt` DESC");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Mobility Solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,6 +29,8 @@ $res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` F
 <body>
     <h3><a href="logout.php">LOGOUT</a></h3>
     <h3><a href="read.php">Completed Messages</a></h3>
+    <h3>Total Visitor Count <?php echo $num; ?> </h3>
+    <h3>Total Unique Visitor Count <?php echo $num2; ?> </h3>
     <div class="container">
         <h2>Messages</h2>
         <table class="table table-striped">

@@ -328,3 +328,10 @@
 </body>
 
 </html>
+
+
+<?php
+require "fxn.php";
+$ip_add = $_SERVER['REMOTE_ADDR'];
+$res = doThis("INSERT INTO `ip_add`(`ip_add`, `generatedAt`) VALUES ('$ip_add',CURRENT_TIMESTAMP() )");
+?>
