@@ -49,10 +49,10 @@
               <a class="nav-link " href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.php">About</a>
+              <a class="nav-link " href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link active" href="contact.php">Contact</a>
             </li>
           </ul>
 
@@ -133,10 +133,13 @@
                 <span class="ion-ios-telephone icon mr-5"></span>
                 <span>+91 921 540 1100 </span>
               </p>
-
+              <p class="d-flex">
+                <span class="ion-ios-telephone icon mr-5"></span>
+                <span>+91 839 890 1100</span>
+              </p>
               <p class="d-flex">
                 <span class="ion-android-mail icon mr-5"></span>
-                <span>example@gmail.com</span>
+                <span>mobility.solutions5@gmail.com</span>
               </p>
             </div>
           </div>
@@ -168,7 +171,9 @@
               <span class="d-block">Address:</span>
               <span>E-12 Ashoka Nursery, Karnal, Haryana</span></li>
             <li class="d-block"><span class="d-block">Telephone:</span><span>+91 921 540 1100 </span></li>
-            <li class="d-block"><span class="d-block">Email:</span><span>example@gmail.com</span></li>
+            <li class="d-block"><span class="d-block">Telephone Alernate:</span><span>+91 839 890 1100</span></li>
+
+            <li class="d-block"><span class="d-block">Email:</span><span>mobility.solutions5@gmail.com</span></li>
           </ul>
         </div>
         <div class="col-md-3 mb-5">

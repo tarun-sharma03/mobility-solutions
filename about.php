@@ -185,7 +185,9 @@
               <span class="d-block">Address:</span>
               <span>E-12 Ashoka Nursery, Karnal, Haryana</span></li>
             <li class="d-block"><span class="d-block">Telephone:</span><span>+91 921 540 1100 </span></li>
-            <li class="d-block"><span class="d-block">Email:</span><span>example@gmail.com</span></li>
+            <li class="d-block"><span class="d-block">Telephone Alternate:</span><span>+91 839 890 1100</span></li>
+
+            <li class="d-block"><span class="d-block">Email:</span><span>mobility.solutions5@gmail.com</span></li>
           </ul>
         </div>
         <div class="col-md-3 mb-5">
@@ -206,6 +208,7 @@
             with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://instagram.com/tarun_sharma03" target="_blank" class="text-primary">Tarun</a>
 
           </p>
+          <p>Design Inspired By <a href="https://colorlib.com/wp/templates/">Colorlib</a></p>
         </div>
       </div>
     </div>

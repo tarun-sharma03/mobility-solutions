@@ -96,7 +96,7 @@
             <div class="icon mb-3"><span class="fa fa-cogs text-primary"></span></div>
             <div class="media-body">
               <h3 class="heading">Self Manufacturing</h3>
-              <p>All our kits are manufactured in-house and under our direct supervision. Each and every part is made with utmost precision and care.</p>
+              <p>All our kits are manufactured in-house and under our direct supervision. Each part is made with utmost precision and care.</p>
             </div>
           </div>
 
@@ -204,40 +204,54 @@
     <div class="container-fluid">
       <div class="row no-gutters">
         <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Chevrolet Hand Control : PHC</h3>
-            <img src="images/img_1.jpeg" alt="Image" class="img-fluid">
-          </div>
+          <a href="images/img_1.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Chevrolet Hand Control : PHC</h3>
+              <img src="images/img_1.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 element-animate">
+          <a href="images/img_2.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Suzuki Hand Control : PHC</h3>
+              <img src="images/img_2.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 element-animate">
+          <a href="images/img_3.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Hyundai Hand Control : PHC</h3>
+              <img src="images/img_3.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
         </div>
         <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Suzuki Hand Control : PHC</h3>
-            <img src="images/img_2.jpeg" alt="Image" class="img-fluid">
-          </div>
+          <a href="images/img_4.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Suzuki Hand Control : PHC</h3>
+              <img src="images/img_4.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
         </div>
         <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Hyundai Hand Control : PHC</h3>
-            <img src="images/img_3.jpeg" alt="Image" class="img-fluid">
-          </div>
+          <a href="images/img_5.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Tata Hand Control : PHC</h3>
+              <img src="images/img_5.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
         </div>
         <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Suzuki Hand Control : PHC</h3>
-            <img src="images/img_4.jpeg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Tata Hand Control : PHC</h3>
-            <img src="images/img_5.jpeg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 element-animate">
-          <div class="link-thumbnail">
-            <h3>Make : Hyundai Hand Control : PHC</h3>
-            <img src="images/img_6.jpeg" alt="Image" class="img-fluid">
-          </div>
+          <a href="images/img_6.jpeg">
+            <div class="link-thumbnail">
+              <h3>Make : Hyundai Hand Control : PHC</h3>
+              <img src="images/img_6.jpeg" alt="Image" class="img-fluid">
+            </div>
+          </a>
         </div>
       </div>
 
@@ -267,7 +281,9 @@
               <span class="d-block">Address:</span>
               <span>E-12 Ashoka Nursery, Karnal, Haryana</span></li>
             <li class="d-block"><span class="d-block">Telephone:</span><span>+91 921 540 1100</span></li>
-            <li class="d-block"><span class="d-block">Email:</span><span>example@gmail.com</span></li>
+            <li class="d-block"><span class="d-block">Telephone Alternate :</span><span>+91 839 890 1100</span></li>
+
+            <li class="d-block"><span class="d-block">Email:</span><span>mobility.solutions5@gmail.com</span></li>
           </ul>
         </div>
         <div class="col-md-3 mb-5">
