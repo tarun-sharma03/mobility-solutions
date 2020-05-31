@@ -9,7 +9,7 @@ if (is_null($_SESSION["username"])) {
 <?php
 }
 
-$res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` FROM `conform` WHERE `enabled` = 1 ORDER BY `generatedAt` DESC");
+$res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` FROM `conform` WHERE `enabled` = '0' ORDER BY `generatedAt` DESC");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +25,7 @@ $res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` F
 
 <body>
     <h3><a href="logout.php">LOGOUT</a></h3>
-    <h3><a href="read.php">Completed Messages</a></h3>
+    <h3><a href="admin.php">Back To Home</a></h3>
     <div class="container">
         <h2>Messages</h2>
         <table class="table table-striped">
@@ -36,7 +36,6 @@ $res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` F
                     <th>Email</th>
                     <th>Message</th>
                     <th>Date</th>
-                    <th>Action</th>
 
                 </tr>
             </thead>
@@ -51,7 +50,7 @@ $res = getThis("SELECT `id`, `name`, `phone`, `email`, `message`,`generatedAt` F
                         <td><?php echo e_d('d', $temp['email']); ?> </td>
                         <td><?php echo e_d('d', $temp['message']); ?> </td>
                         <td><?php echo $temp['generatedAt']; ?> </td>
-                        <td><a href="readact.php?id=<?php echo e_d('e', $temp['id']); ?>">Read</a></td>
+
                     </tr>
                 <?php
                 }
