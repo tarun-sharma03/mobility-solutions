@@ -4261,7 +4261,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -9792,6 +9792,11 @@ header .search-form .form-control {
 }
 
 /* Owl Carousel */
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
 .home-slider {
   position: relative;
   z-index: 4;

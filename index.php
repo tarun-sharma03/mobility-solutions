@@ -159,7 +159,7 @@
         </div>
         <div class="col-md-5 pr-md-5 mb-5">
           <div class="block-41">
-            <h2 class="block-41-heading mb-5">Tri Spinner</h2>
+            <h2 class="block-41-heading mb-5">Tri Pin Spinner</h2>
             <div class="block-41-text">
               <p>This steering knob is helpful to those persons who have less strength in their hand, fingers or wrist. One can place his hand between three pins to steer easily. It is a quick release knob which can be installed or uninstalled easily.</p>
             </div>
